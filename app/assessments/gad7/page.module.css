@@ -1,0 +1,227 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 2rem 1rem;
+}
+
+.content {
+  max-width: 800px;
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.questionnaire {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.questionItem {
+  margin-bottom: 2rem;
+}
+
+.questionText {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.optionLabel {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radioInput {
+  margin-right: 0.5rem;
+}
+
+.optionText {
+  font-size: 1rem;
+  color: #444;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.submitButton,
+.resetButton {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submitButton {
+  background-color: #0070f3;
+  color: white;
+}
+
+.submitButton:hover {
+  background-color: #0051a2;
+}
+
+.resetButton {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.resetButton:hover {
+  background-color: #e0e0e0;
+}
+
+.errorMessage {
+  color: #d32f2f;
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.resultSection {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  border: 1px solid #b0d4ff;
+}
+
+.resultTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.scoreText {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.scoreValue {
+  font-weight: 700;
+  color: #0070f3;
+}
+
+.scoreDescription {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 1rem;
+}
+
+.interpretationSection {
+  margin-top: 2rem;
+}
+
+.interpretationTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.interpretationDescription {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.interpretationTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.interpretationTable th,
+.interpretationTable td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.interpretationTable th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+.question ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.question li {
+  margin-bottom: 0.5rem;
+}
+
+.question input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.answerList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.answerLabel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.answerLabel input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.header {
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.homeButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.logoImage {
+  border-radius: 50%;
+}

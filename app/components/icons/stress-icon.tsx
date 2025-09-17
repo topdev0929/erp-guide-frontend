@@ -1,0 +1,22 @@
+const StressIcon = () => (
+  <svg
+    width="40"
+    height="40"
+    viewBox="0 0 40 40"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      x="8"
+      y="12"
+      width="24"
+      height="16"
+      rx="8"
+      stroke="#349934"
+      strokeWidth="2"
+    />
+    <circle cx="20" cy="20" r="4" fill="#349934" />
+  </svg>
+);
+
+export default StressIcon;

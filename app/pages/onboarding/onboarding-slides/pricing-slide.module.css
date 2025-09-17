@@ -1,0 +1,147 @@
+.slide {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pricingContainer {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.traditionalPrice {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  color: #333;
+  animation: fadeInDark 1.5s ease-out forwards,
+    fadeToLight 1s ease-out forwards 2s;
+}
+
+.planOptions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.planCard {
+  flex: 1;
+  padding: 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  background: white;
+  max-width: 250px;
+}
+
+.planCard.selected {
+  border-color: #349934;
+  background: #e8f5e8;
+}
+
+.saveTag {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #349934;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 14px;
+  color: white;
+}
+
+.then {
+  color: #666;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.startTrialButton {
+  background: #349934;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 300px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.startTrialButton:hover {
+  background: #2d8a2d;
+  transform: translateY(-2px);
+}
+
+.cancelText {
+  font-size: 14px;
+  color: #666;
+}
+
+.aiTherapySection {
+  opacity: 0;
+  animation: fadeInDelayed 1s ease-out forwards 3s;
+}
+
+.pricingTitle {
+  opacity: 0;
+  animation: fadeInDelayed 1s ease-out forwards 3s;
+}
+
+@keyframes fadeInDark {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+    font-size: 1.6rem;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    font-size: 1.6rem;
+  }
+}
+
+@keyframes fadeToLight {
+  from {
+    opacity: 1;
+    color: #333;
+    background: #f8f8f8;
+    font-size: 1.6rem;
+  }
+  to {
+    opacity: 0.5;
+    color: #666;
+    background: #f8f8f8;
+    font-size: 1.2rem;
+  }
+}
+
+@keyframes fadeInDelayed {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

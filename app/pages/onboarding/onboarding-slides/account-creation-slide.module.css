@@ -1,0 +1,118 @@
+.slide {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.introSlide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 2rem;
+}
+
+.error {
+  color: #d73356;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.inputField {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  background-color: #ffffff;
+}
+
+.inputField:focus {
+  border-color: #349934;
+  outline: none;
+}
+
+.createAccountButton {
+  margin-top: 20px;
+  padding: 1.25rem 2.5rem;
+  background-color: #349934;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.createAccountButton:hover {
+  background-color: #2d8a2d;
+  transform: translateY(-2px);
+}
+
+.createAccountButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.policyLinks {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.link {
+  color: #349934;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #2d8a2d;
+  text-decoration: underline;
+}
+
+.loginPrompt {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.loginLink {
+  color: #349934;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  margin-left: 0.5rem;
+}
+
+.loginLink:hover {
+  color: #2d8a2d;
+  text-decoration: underline;
+}
